@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	height: 100vh;
+	overflow: hidden;
+	background: #2864ff;
+	color: white;
+}
+
+h1 {
+	font-family: "Bebas Neue";
+	font-size: 16rem;
+	text-align: center;
+	opacity: 0.1;
+	vertical-align: middle;
+	line-height: 103vh;
+	// margin: 18% 0 0 0;
+}
+
+.progress {
+	background-color: #a1bcff;
+	height: 3px;
+	width: 0;
+	position: absolute;
+	top: 50%;
+}
